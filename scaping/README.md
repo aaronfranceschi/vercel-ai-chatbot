@@ -1,6 +1,9 @@
-# MET OpenAccess Image Harvester — Large-scale Project
+# MET OpenAccess Image Harvester — Example Project
 
-An extensible Python project for large-scale harvesting of public-domain images referenced in the MET OpenAccess dataset. This repository contains a production-facing starter with concurrency, retries, optional per-host rate-limiting, and CSV reporting.
+An extensible Python project for large-scale harvesting of public-domain images referenced in the MET OpenAccess dataset. This repository contains a starter implementation with concurrency, retries, optional per-host rate-limiting, and CSV reporting.
+
+Disclaimer
+-- This repository is provided as an example implementation that is similar to requirements some organizations may request, but it is not a client-specific deliverable. Customize and extend it to match your project's policies and operational requirements.
 
 Key features
 - Read CSV input from local path or remote URL
